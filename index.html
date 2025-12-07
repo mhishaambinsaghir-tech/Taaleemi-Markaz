@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="تعلیمی مرکز - اردو کی تعلیم اور ٹیوشن سینٹر">
+    <title>تعلیمی مرکز | Taaleemi Markaz</title>
+    
+    <!-- Google Fonts - Urdu Support -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Amiri:wght@400;700&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Header/Navigation -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" class="logo">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>تعلیمی مرکز</span>
+                    </a>
+                    
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="#home" class="nav-link active">ہوم</a></li>
+                        <li><a href="#about" class="nav-link">ہمارے بارے میں</a></li>
+                        <li><a href="#courses" class="nav-link">کورسز</a></li>
+                        <li><a href="#teachers" class="nav-link">اساتذہ</a></li>
+                        <li><a href="#testimonials" class="nav-link">طلباء کی رائے</a></li>
+                        <li><a href="#gallery" class="nav-link">گیلری</a></li>
+                        <li><a href="#contact" class="nav-link">رابطہ</a></li>
+                    </ul>
+                    
+                    <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-parallax" id="heroParallax"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title fade-in">تعلیمی مرکز میں خوش آمدید</h1>
+                <p class="hero-subtitle fade-in">معیاری تعلیم کا مرکز - جہاں علم کی روشنی پھیلتی ہے</p>
+                <div class="hero-buttons fade-in">
+                    <a href="#courses" class="btn btn-primary">کورسز دیکھیں</a>
+                    <a href="#contact" class="btn btn-secondary">رجسٹریشن کریں</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image reveal">
+                    <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=600&fit=crop" alt="تعلیمی ماحول">
+                    <div class="about-accent"></div>
+                </div>
+                <div class="about-content reveal">
+                    <h2 class="section-title">ہمارے بارے میں</h2>
+                    <div class="title-underline"></div>
+                    <p class="about-text">
+                        تعلیمی مرکز ایک جدید اور معیاری تعلیمی ادارہ ہے جو طلباء کو اعلیٰ تعلیم فراہم کرنے کے لیے پرعزم ہے۔ ہم اپنے تجربہ کار اساتذہ اور جدید طریقہ تدریس کے ذریعے طلباء کی تعلیمی کارکردگی کو بہتر بنانے میں مدد کرتے ہیں۔
+                    </p>
+                    <p class="about-text">
+                        ہمارا مقصد نہ صرف امتحانی نتائج بلکہ طلباء کی مجموعی شخصیت کی تعمیر ہے۔ ہم ایک دوستانہ اور حوصلہ افزا ماحول فراہم کرتے ہیں جہاں ہر طالب علم اپنی صلاحیتوں کو نکھار سکے۔
+                    </p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>تجربہ کار اساتذہ</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>جدید طریقہ تدریس</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>مناسب فیس</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>باقاعدہ ٹیسٹس</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses" id="courses">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">ہمارے کورسز</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">تمام مضامین کے لیے خصوصی کلاسز</p>
+            </div>
+            
+            <div class="bento-grid">
+                <!-- Large Course Card -->
+                <div class="course-card large reveal">
+                    <div class="course-icon">
+                        <i class="fas fa-book-quran"></i>
+                    </div>
+                    <h3 class="course-title">قرآن و ناظرہ</h3>
+                    <p class="course-description">قرآن پاک کی تلاوت، ناظرہ، ترجمہ اور تجوید کی تعلیم تجربہ کار قاریوں کی نگرانی میں</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-star"></i> تجوید کے ساتھ</li>
+                        <li><i class="fas fa-star"></i> ترجمہ اور تفسیر</li>
+                        <li><i class="fas fa-star"></i> حفظ کی سہولت</li>
+                    </ul>
+                    <div class="course-meta">
+                        <span><i class="fas fa-clock"></i> 5 ماہ</span>
+                        <span><i class="fas fa-users"></i> 15 طلباء</span>
+                    </div>
+                </div>
+
+                <!-- Medium Course Card -->
+                <div class="course-card medium reveal">
+                    <div class="course-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3 class="course-title">اردو لینگویج</h3>
+                    <p class="course-description">اردو زبان کی مکمل تعلیم - قواعد، انشا پردازی، خط اور ادب</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-star"></i> قواعد اور املا</li>
+                        <li><i class="fas fa-star"></i> تحریری مہارت</li>
+                    </ul>
+                    <div class="course-meta">
+                        <span><i class="fas fa-clock"></i> 4 ماہ</span>
+                        <span><i class="fas fa-users"></i> 20 طلباء</span>
+                    </div>
+                </div>
+
+                <!-- Small Course Card -->
+                <div class="course-card small reveal">
+                    <div class="course-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3 class="course-title">ریاضی</h3>
+                    <p class="course-description">میٹرک تک تمام کلاسز کے لیے</p>
+                    <div class="course-meta">
+                        <span><i class="fas fa-clock"></i> 6 ماہ</span>
+                    </div>
+                </div>
+
+                <!-- Small Course Card -->
+                <div class="course-card small reveal">
+                    <div class="course-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3 class="course-title">سائنس</h3>
+                    <p class="course-description">فزکس، کیمسٹری اور بائیولوجی</p>
+                    <div class="course-meta">
+                        <span><i class="fas fa-clock"></i> 6 ماہ</span>
+                    </div>
+                </div>
+
+                <!-- Medium Course Card -->
+                <div class="course-card medium reveal">
+                    <div class="course-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 class="course-title">انگلش لینگویج</h3>
+                    <p class="course-description">انگریزی زبان میں مہارت - گرامر، تحریر اور گفتگو</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-star"></i> بولنا اور سننا</li>
+                        <li><i class="fas fa-star"></i> گرامر کی مشق</li>
+                    </ul>
+                    <div class="course-meta">
+                        <span><i class="fas fa-clock"></i> 5 ماہ</span>
+                        <span><i class="fas fa-users"></i> 18 طلباء</span>
+                    </div>
+                </div>
+
+                <!-- Large Course Card -->
+                <div class="course-card large reveal">
+                    <div class="course-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="course-title">کمپیوٹر سائنس</h3>
+                    <p class="course-description">جدید ٹیکنالوجی اور کمپیوٹر کی تعلیم - پروگرامنگ، ویب ڈویلپمنٹ اور گرافکس</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-star"></i> بنیادی کمپیوٹر</li>
+                        <li><i class="fas fa-star"></i> پروگرامنگ</li>
+                        <li><i class="fas fa-star"></i> ویب ڈیزائننگ</li>
+                    </ul>
+                    <div class="course-meta">
+                        <span><i class="fas fa-clock"></i> 8 ماہ</span>
+                        <span><i class="fas fa-users"></i> 12 طلباء</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teachers Section -->
+    <section class="teachers" id="teachers">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">ہماری ٹیم</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">تجربہ کار اور قابل اساتذہ</p>
+            </div>
+            
+            <div class="teachers-scroll-wrapper">
+                <button class="scroll-btn scroll-left" id="scrollLeft">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                <div class="teachers-container" id="teachersContainer">
+                    <div class="teacher-card reveal">
+                        <div class="teacher-image">
+                            <img src="https://i.pravatar.cc/300?img=33" alt="استاد">
+                            <div class="teacher-overlay">
+                                <div class="teacher-social">
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                    <a href="#"><i class="fas fa-envelope"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="teacher-info">
+                            <h3 class="teacher-name">پروفیسر احمد علی</h3>
+                            <p class="teacher-specialty">اردو اور اسلامیات</p>
+                            <p class="teacher-experience">15 سال کا تجربہ</p>
+                        </div>
+                    </div>
+
+                    <div class="teacher-card reveal">
+                        <div class="teacher-image">
+                            <img src="https://i.pravatar.cc/300?img=47" alt="استانی">
+                            <div class="teacher-overlay">
+                                <div class="teacher-social">
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                    <a href="#"><i class="fas fa-envelope"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="teacher-info">
+                            <h3 class="teacher-name">محترمہ فاطمہ خان</h3>
+                            <p class="teacher-specialty">انگلش اور سائنس</p>
+                            <p class="teacher-experience">12 سال کا تجربہ</p>
+                        </div>
+                    </div>
+
+                    <div class="teacher-card reveal">
+                        <div class="teacher-image">
+                            <img src="https://i.pravatar.cc/300?img=12" alt="استاد">
+                            <div class="teacher-overlay">
+                                <div class="teacher-social">
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                    <a href="#"><i class="fas fa-envelope"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="teacher-info">
+                            <h3 class="teacher-name">ڈاکٹر حسن رضا</h3>
+                            <p class="teacher-specialty">ریاضی اور فزکس</p>
+                            <p class="teacher-experience">18 سال کا تجربہ</p>
+                        </div>
+                    </div>
+
+                    <div class="teacher-card reveal">
+                        <div class="teacher-image">
+                            <img src="https://i.pravatar.cc/300?img=20" alt="استاد">
+                            <div class="teacher-overlay">
+                                <div class="teacher-social">
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                    <a href="#"><i class="fas fa-envelope"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="teacher-info">
+                            <h3 class="teacher-name">انجینئر عمر فاروق</h3>
+                            <p class="teacher-specialty">کمپیوٹر سائنس</p>
+                            <p class="teacher-experience">10 سال کا تجربہ</p>
+                        </div>
+                    </div>
+
+                    <div class="teacher-card reveal">
+                        <div class="teacher-image">
+                            <img src="https://i.pravatar.cc/300?img=32" alt="استانی">
+                            <div class="teacher-overlay">
+                                <div class="teacher-social">
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                    <a href="#"><i class="fas fa-envelope"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="teacher-info">
+                            <h3 class="teacher-name">محترمہ عائشہ سعید</h3>
+                            <p class="teacher-specialty">کیمسٹری اور بائیولوجی</p>
+                            <p class="teacher-experience">14 سال کا تجربہ</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="scroll-btn scroll-right" id="scrollRight">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">طلباء کی رائے</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">ہمارے کامیاب طلباء کے تجربات</p>
+            </div>
+            
+            <div class="testimonials-masonry">
+                <div class="testimonial-card bg-blue reveal">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "تعلیمی مرکز میں پڑھائی کا تجربہ بہت شاندار رہا۔ اساتذہ بہت محنت سے پڑھاتے ہیں اور ہر طالب علم پر توجہ دیتے ہیں۔ میرے نتائج میں نمایاں بہتری آئی ہے۔"
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://i.pravatar.cc/100?img=1" alt="طالب علم">
+                        <div>
+                            <h4>علی حسن</h4>
+                            <p>میٹرک - A+ گریڈ</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card bg-cream reveal">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "یہاں کا ماحول بہت اچھا ہے۔ اساتذہ ہر مضمون کو آسانی سے سمجھاتے ہیں۔ میں یہاں آ کر بہت خوش ہوں۔"
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://i.pravatar.cc/100?img=5" alt="طالبہ">
+                        <div>
+                            <h4>فاطمہ زہرا</h4>
+                            <p>انٹر - سائنس</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card bg-green reveal">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "تعلیمی مرکز کے اساتذہ نے میری انگلش اور ریاضی کو بہت مضبوط کیا۔ اب میں کانفیڈنس سے امتحان دیتا ہوں۔ شکریہ!"
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://i.pravatar.cc/100?img=13" alt="طالب علم">
+                        <div>
+                            <h4>محمد احمد</h4>
+                            <p>کلاس 9 - A گریڈ</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card bg-blue reveal">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "میں نے یہاں قرآن پاک اور اسلامیات پڑھی۔ اساتذہ بہت پیار سے سمجھاتے ہیں۔ اللہ انہیں جزائے خیر دے۔"
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://i.pravatar.cc/100?img=27" alt="طالبہ">
+                        <div>
+                            <h4>آمنہ سلیم</h4>
+                            <p>قرآن و ناظرہ</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card bg-cream reveal">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "کمپیوٹر سائنس کی کلاس بہترین ہے۔ پروگرامنگ سیکھنا یہاں بہت آسان ہو گیا۔ عملی مشق کی بہت سہولت ہے۔"
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://i.pravatar.cc/100?img=15" alt="طالب علم">
+                        <div>
+                            <h4>عمر فاروق</h4>
+                            <p>کمپیوٹر سائنس</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card bg-green reveal">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "تعلیمی مرکز کی وجہ سے میرا مستقبل روشن ہوا۔ یہاں کی تعلیم معیاری اور فیس مناسب ہے۔"
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://i.pravatar.cc/100?img=31" alt="طالبہ">
+                        <div>
+                            <h4>سارہ احمد</h4>
+                            <p>میٹرک - A گریڈ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">تصاویر</h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">ہمارے تعلیمی ادارے کی جھلکیاں</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item tall reveal">
+                    <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600&h=800&fit=crop" alt="کلاس روم">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h3>جدید کلاس روم</h3>
+                            <p>ہوا دار اور روشن کمرے</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item wide reveal">
+                    <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&h=600&fit=crop" alt="لائبریری">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h3>لائبریری</h3>
+                            <p>ہزاروں کتابوں کا ذخیرہ</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&h=600&fit=crop" alt="طلباء">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h3>محنتی طلباء</h3>
+                            <p>تعلیم میں مصروف</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=600&h=600&fit=crop" alt="کمپیوٹر لیب">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h3>کمپیوٹر لیب</h3>
+                            <p>جدید ٹیکنالوجی</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item wide reveal">
+                    <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=600&fit=crop" alt="سائنس لیب">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h3>سائنس لیبارٹری</h3>
+                            <p>عملی تجربات</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item tall reveal">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=800&fit=crop" alt="گروپ اسٹڈی">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h3>اجتماعی مطالعہ</h3>
+                            <p>ساتھ مل کر سیکھیں</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&h=600&fit=crop" alt="آن لائن کلاس">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h3>ڈیجیٹل کلاس</h3>
+                            <p>آن لائن سہولیات</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal">
+                    <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&h=600&fit=crop" alt="تحریری مشق">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h3>تحریری مشق</h3>
+                            <p>روزانہ کی کلاس</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact/Registration Form Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info reveal">
+                    <h2 class="section-title">رابطہ کریں</h2>
+                    <div class="title-underline"></div>
+                    <p class="contact-description">
+                        ہم سے رابطہ کرنے کے لیے فارم پُر کریں یا نیچے دی گئی معلومات استعمال کریں۔ ہماری ٹیم جلد سے جلد آپ سے رابطہ کرے گی۔
+                    </p>
+                    
+                    <div class="info-items">
+                        <div class="info-item">
+                            <div class="icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="text">
+                                <h3>پتہ</h3>
+                                <p>123 گلشن اقبال، کراچی، پاکستان</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="text">
+                                <h3>فون نمبر</h3>
+                                <p dir="ltr">+92 321 1234567</p>
+                                <p dir="ltr">+92 300 9876543</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="text">
+                                <h3>ای میل</h3>
+                                <p dir="ltr">info@taaleemimarkaz.com</p>
+                                <p dir="ltr">admission@taaleemimarkaz.com</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <div class="icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="text">
+                                <h3>اوقات</h3>
+                                <p>پیر سے جمعہ: صبح 8 بجے سے شام 6 بجے</p>
+                                <p>ہفتہ: صبح 9 بجے سے دوپہر 2 بجے</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper reveal">
+                    <h2 class="form-title">رجسٹریشن فارم</h2>
+                    <form class="contact-form" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="studentName">طالب علم کا نام</label>
+                                <input type="text" id="studentName" name="studentName" required>
+                                <span class="error-message" id="nameError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="fatherName">والد کا نام</label>
+                                <input type="text" id="fatherName" name="fatherName" required>
+                                <span class="error-message" id="fatherError"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">ای میل</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="error-message" id="emailError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">فون نمبر</label>
+                                <input type="tel" id="phone" name="phone" required>
+                                <span class="error-message" id="phoneError"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="class">کلاس</label>
+                                <select id="class" name="class" required>
+                                    <option value="">منتخب کریں</option>
+                                    <option value="class-1">کلاس 1</option>
+                                    <option value="class-2">کلاس 2</option>
+                                    <option value="class-3">کلاس 3</option>
+                                    <option value="class-4">کلاس 4</option>
+                                    <option value="class-5">کلاس 5</option>
+                                    <option value="class-6">کلاس 6</option>
+                                    <option value="class-7">کلاس 7</option>
+                                    <option value="class-8">کلاس 8</option>
+                                    <option value="class-9">کلاس 9</option>
+                                    <option value="class-10">کلاس 10</option>
+                                    <option value="intermediate">انٹرمیڈیٹ</option>
+                                </select>
+                                <span class="error-message" id="classError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="course">مطلوبہ کورس</label>
+                                <select id="course" name="course" required>
+                                    <option value="">منتخب کریں</option>
+                                    <option value="quran">قرآن و ناظرہ</option>
+                                    <option value="urdu">اردو</option>
+                                    <option value="english">انگلش</option>
+                                    <option value="math">ریاضی</option>
+                                    <option value="science">سائنس</option>
+                                    <option value="computer">کمپیوٹر</option>
+                                    <option value="all">تمام مضامین</option>
+                                </select>
+                                <span class="error-message" id="courseError"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="address">پتہ</label>
+                            <textarea id="address" name="address" rows="3" required></textarea>
+                            <span class="error-message" id="addressError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">پیغام (اختیاری)</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span>رجسٹریشن کریں</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                    <div class="form-success" id="formSuccess">
+                        <i class="fas fa-check-circle"></i>
+                        <p>آپ کی رجسٹریشن کامیابی سے مکمل ہو گئی! ہم جلد آپ سے رابطہ کریں گے۔</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <h3 class="footer-title">
+                            <i class="fas fa-graduation-cap"></i>
+                            تعلیمی مرکز
+                        </h3>
+                        <p class="footer-description">
+                            معیاری تعلیم کا مرکز - جہاں ہر بچے کا مستقبل روشن ہوتا ہے۔ ہم اپنے طلباء کو بہترین تعلیم اور رہنمائی فراہم کرتے ہیں۔
+                        </p>
+                        <div class="footer-social">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4 class="footer-heading">فوری لنکس</h4>
+                        <ul class="footer-links">
+                            <li><a href="#home">ہوم</a></li>
+                            <li><a href="#about">ہمارے بارے میں</a></li>
+                            <li><a href="#courses">کورسز</a></li>
+                            <li><a href="#teachers">اساتذہ</a></li>
+                            <li><a href="#gallery">گیلری</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4 class="footer-heading">کورسز</h4>
+                        <ul class="footer-links">
+                            <li><a href="#courses">قرآن و ناظرہ</a></li>
+                            <li><a href="#courses">اردو لینگویج</a></li>
+                            <li><a href="#courses">انگلش لینگویج</a></li>
+                            <li><a href="#courses">ریاضی اور سائنس</a></li>
+                            <li><a href="#courses">کمپیوٹر سائنس</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4 class="footer-heading">رابطہ</h4>
+                        <ul class="footer-contact">
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>123 گلشن اقبال، کراچی</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone"></i>
+                                <span dir="ltr">+92 321 1234567</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <span dir="ltr">info@taaleemimarkaz.com</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-clock"></i>
+                                <span>پیر - جمعہ: 8am - 6pm</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 تعلیمی مرکز - تمام حقوق محفوظ ہیں</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
