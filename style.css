@@ -53,8 +53,8 @@
     --spacing-xl: 4rem;
     
     /* Typography */
-    --font-heading: 'Amiri', 'Noto Nastaliq Urdu', serif;
-    --font-body: 'Tajawal', 'Noto Nastaliq Urdu', sans-serif;
+    --font-heading:  'Noto Nastaliq Urdu', serif;
+    --font-body: 'Noto Nastaliq Urdu', sans-serif;
     
     /* Border Radius */
     --radius-sm: 4px;
